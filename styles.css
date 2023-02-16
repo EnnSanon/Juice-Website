@@ -1,0 +1,149 @@
+/*Heading Section*/
+body{
+    font-family:"Oswald";
+}
+.container-fluid{
+    width: 100%;
+    background-color:rgb(244, 215, 219);
+    padding: 5% 10%;
+}
+h1{
+font-family:"Mulish";
+font-weight: bolder;
+font-size:4.5rem;
+color: red;
+padding-top: 10px;
+}
+h2{
+    font-family:Ubuntu;
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.picture-one{
+    width: 650px;
+    position:relative;
+    margin:auto;
+    padding-left: 50px;
+    transform: rotate(12deg);
+}
+.first-button{
+margin:25% 2% ;
+}
+
+
+/*Navbar-section*/
+.navbar-brand{
+    width: 350px;
+    height: 350px;
+}
+.nav-link{
+    color: red;
+    font-size: 1.5rem;
+    width: 130px;
+}
+.nav-link:hover{
+    color: forestgreen;
+}
+
+/*Qualities*/
+#Qualities{
+    text-align: center;
+    margin: 7% 15%;
+    padding:12px;
+    color: red;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.text-h3{
+  font-family:"Oswald";
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color:forestgreen;
+}
+
+/*Medium Information*/
+#Medium{
+    text-align: center;
+}
+.medium-image{
+    width:20%;
+    height:13%;
+    border-radius:80%;
+    margin: 20px;
+}
+.em-text{
+    color: red;
+    font-size: 1.5rem;
+}
+
+/*Logo*/
+#Logo{
+    text-align: center;
+    margin: 5% 10%;
+    padding:0% 8%;
+}
+/*separation*/
+.separation{
+    background-color: red;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 2%;
+}
+
+/*Pricing*/
+#Pricing{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.class-pricing{
+color: red;
+}
+ 
+/*Download*/
+
+.DD{
+background-color: rgb(244, 215, 219);
+padding: 5% 10%;
+color: red;
+}
+
+.footer-button{
+    margin: 2%;
+}
+
+/*Contact Section*/
+
+#Contact{
+ color: red;
+ padding:3%;
+ text-align: center;
+}
+
+/*Final*/
+#Final{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 1rem;
+   
+}
+
+/*footer*/
+#footer{
+    background-color: rgb(244, 215, 219); 
+    color: red;
+   padding: 2% 4%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .picture-one{
+        position: static;
+        transform: rotate(0); }
+}
